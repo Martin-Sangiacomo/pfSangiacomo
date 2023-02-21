@@ -1,0 +1,72 @@
+#menu {background: rgba(203, 19, 19, 0.7);
+        width: 100%;
+       position:static;
+        z-index: 100;}
+
+  nav {float:right;}
+
+  nav ul {list-style: none;
+          overflow: hidden;}
+
+  nav ul li {float: left;
+            font-family: Arial, Helvetica, sans-serif;;
+            font-size: 30px;
+            border-style: dashed;}
+ 
+  nav ul li a {display: block; 
+              padding: 50px;
+               color: #fff;
+              text-decoration: none;}
+    
+
+  nav ul li:hover {background: #187bcd;}
+
+        h1 {font-size: 130px; 
+        text-align: center;}
+
+        h1 {background-color: aquamarine;
+        padding: 2px;}
+
+        p { display: inline;}
+     
+h1 {font-family: 'Roboto Mono', monospace; }
+
+     article { font-size: 40px;
+    color: rgb(156, 84, 200);}
+
+    .botonpag {  color: aliceblue; text-decoration: none;
+              background-color:  rgb(63,94,251);
+              background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);; font-size: 30px; border: 10px;
+                border-radius: 10px; padding: 20px;}
+
+    h2 { font-size: 60px;}
+
+div.parrafo { font-size: 40px; text-align: justify;}
+
+.roadmapinfo { font-size: 25px; padding: 1px; background-color: aquamarine; text-align: center; }
+    
+footer { text-align: right;}
+
+.teamrodo  { font-size: x-large;}
+
+body { background: rgb(0,36,35);
+        background: linear-gradient(90deg, rgba(0,36,35,0.44441526610644255) 0%, rgba(148,187,177,1) 62%, rgba(0,255,220,1) 100%);
+        animation: animaciontitulo 3s ease-in-out 1.5s ;
+        animation-iteration-count: infinite;}
+ .visionback { background-image: url(https://imageio.forbes.com/specials-images/imageserve/62380c71af36178f0f91f59d/A-Short-History-of-the-Metaverse/960x0.jpg?format=jpg&width=960);}
+ .roadmapback { background-image: url(https://decor.design/wp-content/uploads/2022/08/7-intervyu-s-professionalami-v-oblasti-arhitektury-obsuzhdayushhie-oczifrovku-metavselennuyu.jpg);}
+ .galleryback { background-image: url(https://img.freepik.com/free-photo/cloud-blue-sky_1232-3108.jpg?size=626&ext=jpg);}
+ .teamback { background-image: url(https://images.adsttc.com/media/images/5013/fbde/28ba/0d3b/4500/0a2e/slideshow/stringio.jpg?1361455716);}
+
+ ul {
+        display: flex; 
+        justify-content: center;
+ }
+ @keyframes animaciontitulo { 0% {background-color: aqua;} 50% {background-color: blue}  100% {background-color: aqua ;}}
+ 
+ .tituloindex {animation: tituloindexani 2s;
+        animation-iteration-count: infinite;}
+
+ @keyframes tituloindexani { 0% {background-color: blue;} 50% {background-color: aquamarine;}
+  60% {background-color: rgb(198, 198, 216);} 80% {background-color: aqua;}}
+
