@@ -44,7 +44,7 @@ h1 {font-family: 'Roboto Mono', monospace; }
 
 div.parrafo { font-size: 40px; text-align: justify; color: white;}
 
-.roadmapinfo { font-size: 25px; padding: 1px; background-color: aquamarine; text-align: center; }
+.roadmapinfo { font-size: 25px; padding: 1px; background-color: aquamarine; text-align: center; margin: 10px;}
     
 footer { text-align: right;}
 
@@ -67,5 +67,6 @@ body { background: rgb(0,36,35);
  
 h1 {animation: titulo 2s;
         animation-iteration-count: infinite;}
+    
 
  
