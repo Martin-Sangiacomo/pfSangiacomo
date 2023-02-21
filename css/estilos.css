@@ -37,11 +37,12 @@ h1 {font-family: 'Roboto Mono', monospace; }
     .botonpag {  color: aliceblue; text-decoration: none;
               background-color:  rgb(63,94,251);
               background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);; font-size: 30px; border: 10px;
-                border-radius: 10px; padding: 20px;}
+                border-radius: 10px; padding: 20px;
+        margin-bottom: 20px;}
 
     h2 { font-size: 60px;}
 
-div.parrafo { font-size: 40px; text-align: justify;}
+div.parrafo { font-size: 40px; text-align: justify; color: white;}
 
 .roadmapinfo { font-size: 25px; padding: 1px; background-color: aquamarine; text-align: center; }
     
@@ -62,11 +63,9 @@ body { background: rgb(0,36,35);
         display: flex; 
         justify-content: center;
  }
- @keyframes animaciontitulo { 0% {background-color: aqua;} 50% {background-color: blue}  100% {background-color: aqua ;}}
+ @keyframes titulo { 0% {background-color: aqua;} 50% {background-color: blue}  100% {background-color: aqua ;}}
  
- .tituloindex {animation: tituloindexani 2s;
+h1 {animation: titulo 2s;
         animation-iteration-count: infinite;}
 
- @keyframes tituloindexani { 0% {background-color: blue;} 50% {background-color: aquamarine;}
-  60% {background-color: rgb(198, 198, 216);} 80% {background-color: aqua;}}
-
+ 
