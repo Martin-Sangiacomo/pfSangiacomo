@@ -21,7 +21,7 @@
 
   nav ul li:hover {background: #187bcd;}
 
-        h1 {font-size: 130px; 
+        h1 {font-size: 70px; 
         text-align: center;}
 
         h1 {background-color: aquamarine;
@@ -60,13 +60,23 @@ body { background: rgb(0,36,35);
  .teamback { background-image: url(https://images.adsttc.com/media/images/5013/fbde/28ba/0d3b/4500/0a2e/slideshow/stringio.jpg?1361455716);}
 
  ul {
-        display: flex; 
-        justify-content: center;
+        display: grid; 
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+       
  }
+ 
+
+ @media (max-width: 767px) {
+        ul{
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(4, 1fr);
+        }
+      }
  @keyframes titulo { 0% {background-color: aqua;} 50% {background-color: blue}  100% {background-color: aqua ;}}
  
 h1 {animation: titulo 2s;
         animation-iteration-count: infinite;}
     
 
- 
