@@ -1,0 +1,50 @@
+//variable
+$columnas:1;
+
+@import './paginas/pag_base/body';
+@import './paginas/pag_base/header';
+@import './paginas/pag_base/main';
+@import './paginas/pag_base/footer';
+
+@media screen and (min-width: 768px) {
+    body {
+      grid-template-rows: auto $columnas fr;
+      grid-template-columns: 1fr minmax(0, 960px) 1fr;
+    }
+    header, footer {
+      grid-column: $columnas / -1;
+    }
+    main {
+      grid-column: ($columnas+1)/ -2;
+    }
+    .mobile-nav {
+      display: none;
+    }
+    .desktop-nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: blue;
+      padding: 1rem;
+    }
+    .desktop-nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 1.5rem;
+      transition: color 0.3s;
+      margin: 10px; 
+      &:hover {
+        color: aqua;
+      }
+    }
+   
+    .desktop-nav a:last-of-type {
+      margin-right: 0;
+    }
+
+  }
+  
+  
+
+  
+  

@@ -1,172 +1,212 @@
-.bodyindex {
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        grid-template-columns: 1fr;
-        min-height: 100vh;
-      }
+body {
+  background-image: url(https://cdn.shopify.com/s/files/1/0127/4114/8730/files/sergei-akulich-48407-unsplash.jpg?v=1530511040); }
+  body .bodyindex {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh; }
 
-body{background-image: url(https://cdn.shopify.com/s/files/1/0127/4114/8730/files/sergei-akulich-48407-unsplash.jpg?v=1530511040);}
-      
-      header {
-        background-image: linear-gradient(to right, #3d5a80, #98c1d9, #e0fbfc);
-        color: #fff;
-        padding: 2rem;
-        font-size: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: space around;
-       
-      }
-      
-      h1 {
-        font-size: 3rem;
-        margin: 30px;
-        color: aqua;
-        
-      }
-      
-      nav {
-        background-color: blue;
-        display: none;
-        padding: 1rem;
-        margin: 10px;
-      }
-      
-      .mobile-nav {
-        display: block; border-style: inset; 
-      }
-      
-      .mobile-nav a {
-        display: block;
-        color: #fff;
-        text-decoration: none;
-        margin: 1rem;
-        transition: color 0.3s;
-        border-style: dashed;
-       
-      }
-      
-      nav.mobile-nav a:hover {
-        color: aqua;
-      }
-      
-      main {
-        background-color: #eee;
-        padding: 1rem;
-      }
-      
-      footer {
-        background-color: #333;
-        color: #fff;
-        padding: 1rem;
-      }
-     
-      @media screen and (min-width: 768px) {
-        body {
-          grid-template-rows: auto 1fr;
-          grid-template-columns: 1fr minmax(0, 960px) 1fr;
-        }
-        header, footer {
-          grid-column: 1 / -1;
-        }
-        main {
-          grid-column: 2 / -2;
-        }
-        .mobile-nav {
-          display: none;
-        }
-        .desktop-nav {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          background-color: blue;
-          padding: 1rem;
-        }
-        .desktop-nav a {
-          color: #fff;
-          text-decoration: none;
-          margin-right: 1.5rem;
-          transition: color 0.3s;
-          margin: 10px; 
-        }
-        .desktop-nav a:hover {
-          color: aqua;
-        }
-        .desktop-nav a:last-of-type {
-          margin-right: 0;
-        }
-      }
-      
-      .parrafoindex {color: rgb(255, 255, 254); background-image: url(https://www.kionetworks.com/hubfs/ALCHEMYLABS/Metaverso.jpg); font-size: larger;}
-      .articledos { background-image: url(http://infoseguridadit.com/electronica/wp-content/uploads/2022/04/metaverso-infoseguridadit-b.jpeg);}
-      
-      .container {
-        display: grid;
-        grid-template-columns: 1fr; /* Una sola columna que ocupa todo el ancho disponible */
-        grid-template-rows: 1fr; /* Una sola fila que ocupa todo el alto disponible */
-      }
-      
-      .gridcontainer {
-        display: grid;
-        grid-template-columns: 2fr 1fr; /* Dos columnas de igual ancho */
-        grid-template-rows: 1fr; /* Una sola fila */
-      }
-      
-      article {
-        border: 1px solid black;
-        padding: 10px;
-      }
+header {
+  background-image: linear-gradient(to right, #3d5a80, #98c1d9, #e0fbfc);
+  color: #fff;
+  padding: 2rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: space around; }
+  header h1 {
+    font-size: 3rem;
+    margin: 30px;
+    color: aqua; }
+  header nav {
+    background-color: blue;
+    display: none;
+    padding: 1rem;
+    margin: 10px; }
 
-      @media screen and (max-width: 767px)
-      { .articledos { display: none;}
-        .parrafoindex {display: flex; color: rgb(240, 230, 230);
-        justify-content: center;
-        text-shadow:
-        -1px -1px 0 #030303,
-        1px -1px 0 #010101,
-        -1px  1px 0 #070706,
-        1px  1px 0 #090909;}
-        .gridcontainer {display: flex; justify-content: center;}
-        }
-       .fotosteam { display: flex;
-justify-content: space-around;
-flex-wrap: wrap;}
-      .carasteam { background-color: #3d5a80; width: 300px; height:  380px;}
+.mobile-nav {
+  display: block;
+  border-style: inset; }
 
-      .uno {background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Clover_-_Joseph_Thomas_Clover_%281825%E2%80%931882%29.jpg/400px-Clover_-_Joseph_Thomas_Clover_%281825%E2%80%931882%29.jpg);
-display: flex; align-items: flex-end; color: white;}
+.mobile-nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 1rem;
+  transition: color 0.3s;
+  border-style: dashed; }
 
-       .dos {background-image: url(https://img.freepik.com/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419474.jpg?w=740&t=st=1677175966~exp=1677176566~hmac=d8ca4c6ccaff72921f47d0cbda0b7e4e89500c7170bb8e4aaf73afce1e210657);
-         background-size: cover; display: flex; align-items: flex-end; color: white;}
-        .tres { background-image: url(https://img.freepik.com/free-photo/portrait-young-man-wearing-mask_23-2148932836.jpg?w=740&t=st=1677176344~exp=1677176944~hmac=d312bd3aeffd5c1ae67807a1415df6580e7bb19d7ee1e5a6569d5a85bff13e7c);
-                background-size: cover; display: flex; align-items: flex-end; color: white;}
+nav.mobile-nav a:hover {
+  color: aqua; }
 
-                .cuatro { background-image: url( https://img.freepik.com/free-photo/portrait-young-asian-woman-wearing-sunglasses_23-2148932867.jpg?w=740&t=st=1677176399~exp=1677176999~hmac=5a278ee4378ed7be9a979f97d515686a2de3c045bd18efd4b04ed8f4404117b4);
-                        background-size: cover; display: flex; align-items: flex-end; color: white; }
+main {
+  background-color: #eee;
+  padding: 2rem -1; }
 
-        .tituloh2 {display: flex; justify-content: center; color: #3d5a80;  margin:20px; }
-        h2 { font-size: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; 
-              }
+main {
+  background-color: white;
+  padding: 1rem; }
+  main .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Una sola columna que ocupa todo el ancho disponible */
+    grid-template-rows: 1fr;
+    /* Una sola fila que ocupa todo el alto disponible */
+    /* Una sola fila */ }
+    main .container .maindiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      animation: indexani 9s ease-in-out infinite; }
+      main .container .maindiv .mainsection {
+        font-size: 100px;
+        color: white; }
 
-       .articleback {background: rgb(34,193,195);
-        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(19,126,189,1) 100%);}
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* Dos columnas de igual ancho */
+  grid-template-rows: 1fr; }
 
-        .maindiv {display: flex; justify-content: center; align-items: center; flex-direction: column; flex-wrap: wrap; 
-        animation: indexani 9s ease-in-out infinite;}
-        .mainsection {font-size: 100px; color:white}
-        
-        @keyframes indexani { 0% {
-                background-color: #572167; /* rojo */
-              }
-              25% {
-                background-color: #c7c2ec; /* verde */
-              }
-              50% {
-                background-color: #0000ff; /* azul */
-              }
-              75% {
-                background-color: #8011f6; /* amarillo */
-              }
-              100% {
-                background-color: #36277b; /* magenta */
-              }}
+article {
+  border: 1px solid black;
+  padding: 10px; }
+
+.parrafoindex {
+  color: #fffffe;
+  background-image: url(https://www.kionetworks.com/hubfs/ALCHEMYLABS/Metaverso.jpg);
+  font-size: larger; }
+
+.articledos {
+  background-image: url(http://infoseguridadit.com/electronica/wp-content/uploads/2022/04/metaverso-infoseguridadit-b.jpeg); }
+
+@media screen and (max-width: 767px) {
+  .articledos {
+    display: none; }
+  .parrafoindex {
+    display: flex;
+    color: #f0e6e6;
+    justify-content: center;
+    text-shadow: -1px -1px 0 #030303, 1px -1px 0 #010101, -1px  1px 0 #070706, 1px  1px 0 #090909; }
+  .gridcontainer {
+    display: flex;
+    justify-content: center; } }
+
+.fotosteam {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.carasteam {
+  background-color: #3d5a80;
+  width: 300px;
+  height: 380px; }
+
+.uno {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Clover_-_Joseph_Thomas_Clover_%281825%E2%80%931882%29.jpg/400px-Clover_-_Joseph_Thomas_Clover_%281825%E2%80%931882%29.jpg);
+  display: flex;
+  align-items: flex-end;
+  color: white; }
+
+.dos {
+  background-image: url(https://img.freepik.com/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419474.jpg?w=740&t=st=1677175966~exp=1677176566~hmac=d8ca4c6ccaff72921f47d0cbda0b7e4e89500c7170bb8e4aaf73afce1e210657);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  color: white; }
+
+.tres {
+  background-image: url(https://img.freepik.com/free-photo/portrait-young-man-wearing-mask_23-2148932836.jpg?w=740&t=st=1677176344~exp=1677176944~hmac=d312bd3aeffd5c1ae67807a1415df6580e7bb19d7ee1e5a6569d5a85bff13e7c);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  color: white; }
+
+.cuatro {
+  background-image: url(https://img.freepik.com/free-photo/portrait-young-asian-woman-wearing-sunglasses_23-2148932867.jpg?w=740&t=st=1677176399~exp=1677176999~hmac=5a278ee4378ed7be9a979f97d515686a2de3c045bd18efd4b04ed8f4404117b4);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  color: white; }
+
+.tituloh2 {
+  display: flex;
+  justify-content: center;
+  color: #3d5a80;
+  margin: 20px; }
+
+h2 {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.articleback {
+  background: #22c1c3;
+  background: linear-gradient(0deg, #22c1c3 0%, #137ebd 100%); }
+
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  animation: indexani 9s ease-in-out infinite; }
+
+.mainsection {
+  font-size: 100px;
+  color: white; }
+
+@keyframes indexani {
+  0% {
+    background-color: #572167;
+    /* rojo */ }
+  25% {
+    background-color: #c7c2ec;
+    /* verde */ }
+  50% {
+    background-color: #0000ff;
+    /* azul */ }
+  75% {
+    background-color: #8011f6;
+    /* amarillo */ }
+  100% {
+    background-color: #36277b;
+    /* magenta */ } }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem; }
+  footer .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Una sola columna que ocupa todo el ancho disponible */
+    grid-template-rows: 1fr; }
+
+@media screen and (min-width: 768px) {
+  body {
+    grid-template-rows: auto 1 fr;
+    grid-template-columns: 1fr minmax(0, 960px) 1fr; }
+  header, footer {
+    grid-column: -1; }
+  main {
+    grid-column: -1; }
+  .mobile-nav {
+    display: none; }
+  .desktop-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    padding: 1rem; }
+  .desktop-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    transition: color 0.3s;
+    margin: 10px; }
+    .desktop-nav a:hover {
+      color: aqua; }
+  .desktop-nav a:last-of-type {
+    margin-right: 0; } }

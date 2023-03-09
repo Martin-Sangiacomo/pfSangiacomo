@@ -1,0 +1,9 @@
+body{
+    background-image: url(https://cdn.shopify.com/s/files/1/0127/4114/8730/files/sergei-akulich-48407-unsplash.jpg?v=1530511040);
+    .bodyindex {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr;
+        min-height: 100vh;
+      }
+}

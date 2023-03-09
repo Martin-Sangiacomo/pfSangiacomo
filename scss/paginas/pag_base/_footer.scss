@@ -1,0 +1,9 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    .container {
+      display: grid;
+      grid-template-columns: 1fr; /* Una sola columna que ocupa todo el ancho disponible */
+      grid-template-rows: 1fr; }
+  }

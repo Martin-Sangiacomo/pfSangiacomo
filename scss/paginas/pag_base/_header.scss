@@ -1,0 +1,51 @@
+//variables
+$tamano: 2rem;
+
+header {
+  background-image: linear-gradient(to right, #3d5a80, #98c1d9, #e0fbfc);
+  color: #fff;
+  padding: $tamano;
+  font-size: $tamano;
+  display: flex;
+  flex-direction: column;
+  align-items: space around;
+  h1 {
+    font-size: $tamano +1 ;
+    margin: 30px;
+    color: aqua;
+    
+  }
+  nav {
+    background-color: blue;
+    display: none;
+    padding: $tamano - 1;
+    margin: 10px;
+  }
+}
+
+
+
+
+
+.mobile-nav {
+  display: block; border-style: inset; 
+}
+
+.mobile-nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 1rem;
+  transition: color 0.3s;
+  border-style: dashed;
+ 
+}
+
+nav.mobile-nav a:hover {
+  color: aqua;
+}
+
+main {
+  background-color: #eee;
+  padding: $tamano -1;
+}
