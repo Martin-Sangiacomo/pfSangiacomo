@@ -1,10 +1,11 @@
 //variable
-$columnas:1;
+$columnas:1; 
 
 @import './paginas/pag_base/body';
 @import './paginas/pag_base/header';
 @import './paginas/pag_base/main';
 @import './paginas/pag_base/footer';
+
 
 @media screen and (min-width: 768px) {
     body {
@@ -21,13 +22,18 @@ $columnas:1;
       display: none;
     }
     .desktop-nav {
+      
       display: flex;
       justify-content: space-around;
       align-items: center;
       background-color: blue;
       padding: 1rem;
-    }
+      
+      }
+  
+    
     .desktop-nav a {
+      
       color: #fff;
       text-decoration: none;
       margin-right: 1.5rem;
@@ -40,10 +46,15 @@ $columnas:1;
    
     .desktop-nav a:last-of-type {
       margin-right: 0;
+      list-style-type: none;
     }
+
+   
 
   }
   
+
+
   
 
   

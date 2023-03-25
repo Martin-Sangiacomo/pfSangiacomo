@@ -33,7 +33,7 @@ main {
           
       }
 .parrafoindex {color: rgb(255, 255, 254); background-image: url(https://www.kionetworks.com/hubfs/ALCHEMYLABS/Metaverso.jpg); font-size: larger;}
-.articledos { background-image: url(http://infoseguridadit.com/electronica/wp-content/uploads/2022/04/metaverso-infoseguridadit-b.jpeg);}
+.articledos { background-image: url(http://infoseguridadit.com/electronica/wp-content/uploads/2022/04/metaverso-infoseguridadit-b.jpeg) alt= "imagen persona con lentes vr";}
 
 @media screen and (max-width: 767px)
 { .articledos { display: none;}
@@ -51,21 +51,23 @@ justify-content: space-around;
 flex-wrap: wrap;}
 .carasteam { background-color: #3d5a80; width: 300px; height:  380px;}
 
-.uno {background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Clover_-_Joseph_Thomas_Clover_%281825%E2%80%931882%29.jpg/400px-Clover_-_Joseph_Thomas_Clover_%281825%E2%80%931882%29.jpg);
+.uno {background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Clover_-_Joseph_Thomas_Clover_%281825%E2%80%931882%29.jpg/400px-Clover_-_Joseph_Thomas_Clover_%281825%E2%80%931882%29.jpg) alt="imagen ceo";
 display: flex; align-items: flex-end; color: white;}
 
-.dos {background-image: url(https://img.freepik.com/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419474.jpg?w=740&t=st=1677175966~exp=1677176566~hmac=d8ca4c6ccaff72921f47d0cbda0b7e4e89500c7170bb8e4aaf73afce1e210657);
+.dos {background-image: url(https://img.freepik.com/free-photo/man-portrait-with-blue-lights-visual-effects_23-2149419474.jpg?w=740&t=st=1677175966~exp=1677176566~hmac=d8ca4c6ccaff72921f47d0cbda0b7e4e89500c7170bb8e4aaf73afce1e210657) alt="imagen cto";
    background-size: cover; display: flex; align-items: flex-end; color: white;}
-.tres { background-image: url(https://img.freepik.com/free-photo/portrait-young-man-wearing-mask_23-2148932836.jpg?w=740&t=st=1677176344~exp=1677176944~hmac=d312bd3aeffd5c1ae67807a1415df6580e7bb19d7ee1e5a6569d5a85bff13e7c);
+.tres { background-image: url(https://img.freepik.com/free-photo/portrait-young-man-wearing-mask_23-2148932836.jpg?w=740&t=st=1677176344~exp=1677176944~hmac=d312bd3aeffd5c1ae67807a1415df6580e7bb19d7ee1e5a6569d5a85bff13e7c) alt="imagen designer";
           background-size: cover; display: flex; align-items: flex-end; color: white;}
-.cuatro { background-image: url( https://img.freepik.com/free-photo/portrait-young-asian-woman-wearing-sunglasses_23-2148932867.jpg?w=740&t=st=1677176399~exp=1677176999~hmac=5a278ee4378ed7be9a979f97d515686a2de3c045bd18efd4b04ed8f4404117b4);
+.cuatro { background-image: url( https://img.freepik.com/free-photo/portrait-young-asian-woman-wearing-sunglasses_23-2148932867.jpg?w=740&t=st=1677176399~exp=1677176999~hmac=5a278ee4378ed7be9a979f97d515686a2de3c045bd18efd4b04ed8f4404117b4) alt="imagen manager";
                   background-size: cover; display: flex; align-items: flex-end; color: white; }
 .tituloh2 {display: flex; justify-content: center; color: #3d5a80;  margin:20px; }
 
 h2 { font-size: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
-.articleback {background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(19,126,189,1) 100%);}
+.roadmaptext{background: rgb(159, 176, 176);
+  background: linear-gradient(0deg, rgb(127, 151, 151) 0%, rgba(19,126,189,1) 100%);
+  color: #4736c7;
+}
 
 .maindiv {display: flex; justify-content: center; align-items: center; flex-direction: column; flex-wrap: wrap; 
   animation: indexani 9s ease-in-out infinite;}
